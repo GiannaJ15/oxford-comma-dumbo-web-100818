@@ -6,6 +6,7 @@ return array.join(" and ")
 elsif array.length>=3
 oxfordarray = []
 oxfordarray << array[-1]
+array.pop
 oxfordarray.insert(0, "and")
 array << oxfordarray.join(" ")
 return array.join(", ")
