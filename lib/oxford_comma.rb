@@ -4,6 +4,8 @@ if array.length ==1
 elsif array.length ==2 
 return array.join(" and ")
 elsif array.length>=3
-array.insert(-2, "and")
+oxfordarray = []
+oxfordarray << array.insert(-2, "and")
+return oxfordarray.join(",")
 end 
 end
