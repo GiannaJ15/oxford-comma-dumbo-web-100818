@@ -5,7 +5,12 @@ elsif array.length ==2
 return array.join(" and ")
 elsif array.length>=3
 oxfordarray = []
-oxfordarray << array.insert(-2, "and")
+oxfordarray << array[-1]
+oxfordarray.insert(0, "and")
+array << oxfordarray.join(" ")
+array.join
+
+
 
 end 
 end
