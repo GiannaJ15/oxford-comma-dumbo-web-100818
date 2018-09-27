@@ -8,6 +8,6 @@ oxfordarray = []
 oxfordarray << array[-1]
 oxfordarray.insert(0, "and")
 array << oxfordarray.join(" ")
-return array.join(" ,")
+return array.join(", ")
 end 
 end
