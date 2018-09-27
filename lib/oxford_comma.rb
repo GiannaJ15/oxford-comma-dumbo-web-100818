@@ -6,6 +6,6 @@ return array.join(" and ")
 elsif array.length>=3
 oxfordarray = []
 oxfordarray << array.insert(-2, "and")
-return oxfordarray.join(",")
+
 end 
 end
